@@ -1,0 +1,85 @@
+body{
+    // height: 100vh;
+    background: #F2F3F4;
+}
+.allcars-page-wrap{
+    height: 100vh;
+}
+.each-sort {
+    margin: 20px 0;
+}
+select{
+    display: block;
+    border: 1px solid #AEB6BF;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    margin-top: 5px;
+    outline: none;
+}
+.all-cars {
+    display: flex;
+    flex-basis: 80%;
+    justify-content: space-between;
+    align-items: stretch;
+    .acar-item{
+        flex-basis: 31%;
+        margin: 0 10px;
+    }
+}
+.cars-wrap{
+    display: flex;
+    align-items: stretch;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.sort-cars{
+    flex-basis: 20%;
+}
+.car-details{
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    color: unset;
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.10);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.10);
+    .car-info{
+        padding: 15px 25px;
+    }
+    .car-make {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .car-price {
+        font-size: 17px;
+        margin-top: 6px;
+        color: #E59866;
+    }
+    .all-features-txt{
+        display: flex;
+        align-items: center;
+    }
+    .each-feature.color-text {
+        width: 20px;
+        height: 20px;
+        margin: 0 6px;
+    }
+    .horizontal{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .carphoto{
+        background: #FBFCFC;
+        text-align: center;
+        border-bottom: 1px solid #ECF0F1;
+        img{
+            width: 40%;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+    }
+}

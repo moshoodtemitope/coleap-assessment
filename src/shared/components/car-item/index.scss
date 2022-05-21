@@ -1,0 +1,30 @@
+.acar-item{
+    background: #fff;
+    border-radius: 5px;
+    color: unset;
+    text-decoration: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.10);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.10);
+    .carphoto{
+        background: #FBFCFC;
+        text-align: center;
+        border-bottom: 1px solid #ECF0F1;
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+    }
+    .car-info {
+        padding: 10px;
+    }
+    .car-make {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .car-price {
+        margin-top: 6px;
+        color: #E59866;
+    }
+}
